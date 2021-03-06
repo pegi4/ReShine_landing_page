@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    padding-left: 20%;
+    padding-right: 20%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    position: fixed;
+}
+
+header .conteiner{
+    margin-top: 10px;
+}
+
+.headerlogo{
+    text-align: center;
+}
+.nbar{
+    position: absolute;
+    top: 45px;
+    right: 25px;
+}
+
+.logo {
+    height: 5rem;
+    transition: .8s;
+}
+
+.logo a[rel="home"] {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+/*--------------------------------------------
+*              CHECK BUTTON
+----------------------------------------------*/
+
+.checkbtn {
+    font-size: 30px;
+    cursor: pointer;
+    transition: .8s ease;
+}
+
+#chech {
+    display: none;
+}
+
+/*--------------------------------------------
+*                   MAIN
+----------------------------------------------*/
+
+main {
+    margin: 11rem 20% 0 20%;
+}
+.opis {
+    padding: 5vw 5vw 10rem 5vw;
+}
+.presentpics {
+    background: rgb(156, 139, 156);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'p s t k';
+}
+.pics {
+    width: ;
+    height: 5rem;
+    background: violet;
+    background-size: cover;
+}
+.pic1{
+    grid-area: p;
+}
+.pic2{
+    grid-area: s;
+}
+.pic3{
+    grid-area: k;
+}
+.pic4{
+    grid-area: t;
+}
+
+.izdelek {
+    margin-top: 10rem;
+}
