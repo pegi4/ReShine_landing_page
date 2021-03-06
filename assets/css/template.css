@@ -66,10 +66,12 @@ main {
     padding: 5vw 5vw 10rem 5vw;
 }
 .presentpics {
+    margin: 0 -8rem 0 -8rem;
     background: rgb(156, 139, 156);
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
     grid-template-areas: 
     'p s t k';
 }
