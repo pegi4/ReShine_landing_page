@@ -1,0 +1,529 @@
+/*-----------------------------card1-----------------------------------*/
+
+#card {
+	width: 250px;
+	height: 170px;
+	position: relative;
+	margin: 10% auto;
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+#blur {
+	background-size: cover;
+	width: 250px;
+	height: 150px;
+	position: relative;
+	top: -15px;
+	left: -15px;
+	border-radius: 8px;
+	-webkit-filter: blur(8px);
+	-moz-filter: blur(8px);
+	filter: blur(8px);
+}
+
+#color {
+	background: rgba(255, 255, 255, .60);
+	width: 430px;
+	height: 330px;
+}
+
+#profile {
+	width: 250px;
+	height: 150px;
+	position: relative;
+	top: -200px;
+	border-radius: 8px;
+}
+
+#profile img {
+	width: 60px;
+	height: 60px;
+	border-radius: 100px;
+	position: relative;
+	top: 60px;
+	display: block;
+	margin: 0 auto;
+	-webkit-filter: sepia(.25);
+	-moz-filter: sepia(.25);
+	filter: sepia(.25);
+}
+
+#profile h1 {
+	color: rgba(38, 50, 56, 1);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+.presentpics p {
+	color: rgba(38, 50, 56, .87);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.info a {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.4s;
+	text-decoration: none;
+}
+.info a:hover {
+	color: rgba(255, 255, 255, .70);
+	transition: color 0.4s; 
+}
+
+.info {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 85px;
+	background: rgba(38, 50, 56, 1);
+	width: 30px;
+	height: 30px;
+	border-radius: 35px;
+	background-position: center center;
+	background-size: cover;
+	transition: all 0.2s ease;
+	z-index: 0;
+}
+
+.info.active {
+	width: 100%;
+	height: 200%;
+	position: relative;
+	top: -100%;
+	background: rgba(38, 50, 56, 1);
+	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+	z-index: 999;
+}
+
+.info i.block {
+	color: rgba(255, 255, 255, .6);
+	display: block;
+}
+
+.info .fa-info {
+	padding: 8px;
+	cursor: pointer;
+	visibility: visible;
+    opacity: 1;
+	transition: visibility 0s, opacity 0.4s ease;
+}
+
+.info.active .fa-info {
+	visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.4s ease;
+}
+
+.info .fa-angle-down {
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.info.active .fa-angle-down {
+	position: relative;
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	visibility: visible;
+	position: relative;
+	top: 78px;
+	animation-name: visible;
+	animation-duration: 0.3s;
+}
+
+@keyframes visible {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.info p {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 110%;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 6px 6px 6px;
+	position: relative;
+	top: 75px;
+	visibility: hidden;
+}
+
+.info.active p {
+	visibility: visible;
+	animation-name: entrance-first;
+	animation-duration: 0.4s;
+}
+
+.info .link {
+	visibility: hidden;
+	margin: 10px 10px 0px 10px;
+	padding: 16px 4px 4px 4px;
+	cursor: pointer;
+	position: relative;
+	top: 75px;
+}
+
+.info.active .link {
+	visibility: visible;
+	animation-name: entrance-second;
+	animation-duration: 0.5s;
+}
+
+@keyframes entrance-first {
+	0% {
+		top: 150px;
+	}
+	100% {
+		top: 75px;
+	}
+}
+
+@keyframes entrance-second {
+	0% {
+		top: 150px;
+	}
+	100% {
+		top: 75px;
+	}
+}
+
+
+/*******************           CARD 2            ***************************/
+
+.iinfo a {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.4s;
+	text-decoration: none;
+}
+.iinfo a:hover {
+	color: rgba(255, 255, 255, .70);
+	transition: color 0.4s; 
+}
+
+.iinfo {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 86px;
+	background: rgba(38, 50, 56, 1);
+	width: 32px;
+	height: 32px;
+	border-radius: 100px;
+	background-position: center center;
+	background-size: cover;
+	transition: all 0.2s ease;
+	z-index: 0;
+}
+
+.iinfo.active {
+	width: 100%;
+	height: 200%;
+	position: relative;
+	top: -100%;
+	background: rgba(38, 50, 56, 1);
+	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+	z-index: 999;
+}
+
+.iinfo i.bblock {
+	color: rgba(255, 255, 255, .6);
+	display: block;
+}
+
+.iinfo .fa-info {
+	padding: 8px;
+	cursor: pointer;
+	visibility: visible;
+ opacity: 1;
+	transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iinfo.active .fa-info {
+	visibility: hidden;
+ opacity: 0;
+ transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iinfo .fa-angle-down {
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.iinfo.active .fa-angle-down {
+	position: relative;
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	visibility: visible;
+	position: relative;
+	top: 130px;
+	animation-name: visible;
+	animation-duration: 0.3s;
+}
+
+.iinfo p {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 110%;
+	font-weight: 400;
+	text-align: center;
+	padding: 24px;
+	position: relative;
+	top: 144px;
+	visibility: hidden;
+}
+
+.iinfo.active p {
+	visibility: visible;
+	animation-name: entrance-first;
+	animation-duration: 0.4s;
+}
+
+.iinfo .link {
+	visibility: hidden;
+	margin: 24px 24px 0px 24px;
+	padding: 16px 4px 4px 4px;
+	cursor: pointer;
+	position: relative;
+	top: 144px;
+}
+
+.iinfo.active .link {
+	visibility: visible;
+	animation-name: entrance-second;
+	animation-duration: 0.5s;
+}
+
+/*******************           CARD 3            ***************************/
+
+.iiinfo a {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.4s;
+	text-decoration: none;
+}
+.iiinfo a:hover {
+	color: rgba(255, 255, 255, .70);
+	transition: color 0.4s; 
+}
+
+.iiinfo {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 86px;
+	background: rgba(38, 50, 56, 1);
+	width: 32px;
+	height: 32px;
+	border-radius: 100px;
+	background-position: center center;
+	background-size: cover;
+	transition: all 0.2s ease;
+	z-index: 0;
+}
+
+.iiinfo.active {
+	width: 100%;
+	height: 200%;
+	position: relative;
+	top: -100%;
+	background: rgba(38, 50, 56, 1);
+	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+	z-index: 999;
+}
+
+.iiinfo i.bbblock {
+	color: rgba(255, 255, 255, .6);
+	display: block;
+}
+
+.iiinfo .fa-info {
+	padding: 8px;
+	cursor: pointer;
+	visibility: visible;
+ opacity: 1;
+	transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iiinfo.active .fa-info {
+	visibility: hidden;
+ opacity: 0;
+ transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iiinfo .fa-angle-down {
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.iiinfo.active .fa-angle-down {
+	position: relative;
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	visibility: visible;
+	position: relative;
+	top: 128px;
+	animation-name: visible;
+	animation-duration: 0.3s;
+}
+
+.iiinfo p {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 110%;
+	font-weight: 400;
+	text-align: center;
+	padding: 24px;
+	position: relative;
+	top: 144px;
+	visibility: hidden;
+}
+
+.iiinfo.active p {
+	visibility: visible;
+	animation-name: entrance-first;
+	animation-duration: 0.4s;
+}
+
+.iiinfo .link {
+	visibility: hidden;
+	margin: 24px 24px 0px 24px;
+	padding: 16px 4px 4px 4px;
+	cursor: pointer;
+	position: relative;
+	top: 144px;
+}
+
+.iiinfo.active .link {
+	visibility: visible;
+	animation-name: entrance-second;
+	animation-duration: 0.5s;
+}
+
+/*******************           CARD 4            ***************************/
+
+.iiiinfo a {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.4s;
+	text-decoration: none;
+}
+.iiiinfo a:hover {
+	color: rgba(255, 255, 255, .70);
+	transition: color 0.4s; 
+}
+
+.iiiinfo {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 86px;
+	background: rgba(38, 50, 56, 1);
+	width: 32px;
+	height: 32px;
+	border-radius: 100px;
+	background-position: center center;
+	background-size: cover;
+	transition: all 0.2s ease;
+	z-index: 0;
+}
+
+.iiiinfo.active {
+	width: 100%;
+	height: 200%;
+	position: relative;
+	top: -100%;
+	background: rgba(38, 50, 56, 1);
+	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
+	z-index: 999;
+}
+
+.iiiinfo i.bbbblock {
+	color: rgba(255, 255, 255, .6);
+	display: block;
+}
+
+.iiiinfo .fa-info {
+	padding: 8px;
+	cursor: pointer;
+	visibility: visible;
+ opacity: 1;
+	transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iiiinfo.active .fa-info {
+	visibility: hidden;
+ opacity: 0;
+ transition: visibility 0s, opacity 0.4s ease;
+}
+
+.iiiinfo .fa-angle-down {
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.iiiinfo.active .fa-angle-down {
+	position: relative;
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	padding: 4px;
+	visibility: visible;
+	position: relative;
+	top: 128px;
+	animation-name: visible;
+	animation-duration: 0.3s;
+}
+
+.iiiinfo p {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 110%;
+	font-weight: 400;
+	text-align: center;
+	padding: 24px;
+	position: relative;
+	top: 144px;
+	visibility: hidden;
+}
+
+.iiiinfo.active p {
+	visibility: visible;
+	animation-name: entrance-first;
+	animation-duration: 0.4s;
+}
+
+.iiiinfo .link {
+	visibility: hidden;
+	margin: 24px 24px 0px 24px;
+	padding: 16px 4px 4px 4px;
+	cursor: pointer;
+	position: relative;
+	top: 144px;
+}
+
+.iiiinfo.active .link {
+	visibility: visible;
+	animation-name: entrance-second;
+	animation-duration: 0.5s;
+}
