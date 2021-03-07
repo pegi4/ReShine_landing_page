@@ -17,6 +17,11 @@ header {
     position: fixed;
 }
 
+header[data-scroll="out"]{
+    backdrop-filter:blur(1px);
+    background: rgba(255, 255, 255, 0);
+}
+
 header .conteiner{
     margin-top: 10px;
 }
@@ -60,13 +65,12 @@ header .conteiner{
 ----------------------------------------------*/
 
 main {
-    margin: 11rem 20% 0 20%;
+    
 }
 .opis {
-    padding: 5vw 5vw 10rem 5vw;
+    padding: 5rem 5rem 10rem 5rem;
 }
 .presentpics {
-    margin: 0 -8rem 0 -8rem;
     background: rgb(156, 139, 156);
     display: grid;
     justify-items: center;
@@ -98,3 +102,86 @@ main {
     margin-top: 10rem;
 }
 
+/*--------------------------------------------
+*                   FOOTER
+----------------------------------------------*/
+
+footer {
+    margin-top: 10rem;
+    padding: 5rem;
+    background: #e7be98d5;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.f_wrapper {
+    position:initial;
+    right: 5%;
+    margin: 20px;
+}
+.f_wrapper .button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.f_wrapper .button:hover{
+    background: #e7be98d5;
+}
+.f_wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+.f_wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.f_wrapper .button:nth-child(2):hover .icon{
+    background: #E1306C;
+}
+.f_wrapper .button .icon i{
+    font-size: 20px;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+.f_wrapper .button:hover .icon i{
+  color: #fff;
+}
+
+.titles ul {
+    list-style-type: none;
+    display: flex;
+}
+.titles ul li{
+    margin-left: 1rem;
+}
+.titles ul li a{
+    color: black;
+}
+.bline {
+    margin: 1rem 0 2rem 0;
+    border: 0;
+    height: 1.5px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+.cc {
+    display: flex;
+}
+.cc a i {
+    color: black;
+    margin-left: 4px;
+}
