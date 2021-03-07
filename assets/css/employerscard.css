@@ -220,11 +220,11 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 86px;
+	top: 85px;
 	background: rgba(38, 50, 56, 1);
-	width: 32px;
-	height: 32px;
-	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	border-radius: 35px;
 	background-position: center center;
 	background-size: cover;
 	transition: all 0.2s ease;
@@ -250,14 +250,14 @@
 	padding: 8px;
 	cursor: pointer;
 	visibility: visible;
- opacity: 1;
+    opacity: 1;
 	transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iinfo.active .fa-info {
 	visibility: hidden;
- opacity: 0;
- transition: visibility 0s, opacity 0.4s ease;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iinfo .fa-angle-down {
@@ -273,7 +273,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 130px;
+	top: 78px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -281,13 +281,13 @@
 .iinfo p {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 110%;
 	font-weight: 400;
 	text-align: center;
-	padding: 24px;
+	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 144px;
+	top: 75px;
 	visibility: hidden;
 }
 
@@ -299,11 +299,11 @@
 
 .iinfo .link {
 	visibility: hidden;
-	margin: 24px 24px 0px 24px;
+	margin: 10px 10px 0px 10px;
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 144px;
+	top: 75px;
 }
 
 .iinfo.active .link {
@@ -328,11 +328,11 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 86px;
+	top: 85px;
 	background: rgba(38, 50, 56, 1);
-	width: 32px;
-	height: 32px;
-	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	border-radius: 35px;
 	background-position: center center;
 	background-size: cover;
 	transition: all 0.2s ease;
@@ -358,14 +358,14 @@
 	padding: 8px;
 	cursor: pointer;
 	visibility: visible;
- opacity: 1;
+    opacity: 1;
 	transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iiinfo.active .fa-info {
 	visibility: hidden;
- opacity: 0;
- transition: visibility 0s, opacity 0.4s ease;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iiinfo .fa-angle-down {
@@ -381,7 +381,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 128px;
+	top: 78px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -389,13 +389,13 @@
 .iiinfo p {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 110%;
 	font-weight: 400;
 	text-align: center;
-	padding: 24px;
+	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 144px;
+	top: 75px;
 	visibility: hidden;
 }
 
@@ -407,11 +407,11 @@
 
 .iiinfo .link {
 	visibility: hidden;
-	margin: 24px 24px 0px 24px;
+	margin: 10px 10px 0px 10px;
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 144px;
+	top: 75px;
 }
 
 .iiinfo.active .link {
@@ -436,11 +436,11 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 86px;
+	top: 85px;
 	background: rgba(38, 50, 56, 1);
-	width: 32px;
-	height: 32px;
-	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	border-radius: 35px;
 	background-position: center center;
 	background-size: cover;
 	transition: all 0.2s ease;
@@ -466,14 +466,14 @@
 	padding: 8px;
 	cursor: pointer;
 	visibility: visible;
- opacity: 1;
+    opacity: 1;
 	transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iiiinfo.active .fa-info {
 	visibility: hidden;
- opacity: 0;
- transition: visibility 0s, opacity 0.4s ease;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.4s ease;
 }
 
 .iiiinfo .fa-angle-down {
@@ -489,7 +489,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 128px;
+	top: 78px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -497,13 +497,13 @@
 .iiiinfo p {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 110%;
 	font-weight: 400;
 	text-align: center;
-	padding: 24px;
+	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 144px;
+	top: 75px;
 	visibility: hidden;
 }
 
@@ -515,11 +515,11 @@
 
 .iiiinfo .link {
 	visibility: hidden;
-	margin: 24px 24px 0px 24px;
+	margin: 10px 10px 0px 10px;
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 144px;
+	top: 75px;
 }
 
 .iiiinfo.active .link {
