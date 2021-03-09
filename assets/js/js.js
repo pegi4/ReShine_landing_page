@@ -18,3 +18,15 @@ $(function() {
 		$(".iiiinfo").toggleClass("active");
 	});
 });
+
+$(document).ready(function() {
+	$(window).scroll(function() {
+        console.log('scrolling ', $(window).scrollTop(), $(document).height());
+    	if ($(window).scrollTop() >= 700 && $(window).scrollTop() <= ($(document).height() - 700)) {
+        	$('header').removeClass('hide');
+        }
+        else {
+        	$('header').addClass('hide');
+        }
+    });
+});

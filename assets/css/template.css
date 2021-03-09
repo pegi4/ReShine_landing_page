@@ -15,11 +15,16 @@ header {
     right: 0px;
     z-index: 100;
     position: fixed;
+    transition: .8s;
+    background: rgba(238, 34, 34, 0);
+    opacity: 1;
 }
 
-header[data-scroll="out"]{
+.hide {
     backdrop-filter:blur(1px);
-    background: rgba(255, 255, 255, 0);
+    background: rgba(238, 34, 34, 0);
+    z-index: -1;
+    opacity: 0;
 }
 
 header .conteiner{
@@ -47,31 +52,39 @@ header .conteiner{
 }
 
 /*--------------------------------------------
-*              CHECK BUTTON
-----------------------------------------------*/
-
-.checkbtn {
-    font-size: 30px;
-    cursor: pointer;
-    transition: .8s ease;
-}
-
-#chech {
-    display: none;
-}
-
-/*--------------------------------------------
 *                   MAIN
 ----------------------------------------------*/
 
 main {
     
 }
+.background {
+    background: url(/assets/pictures/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 15em;
+}
+#logo {
+    text-align: center;
+}
+#logo img {
+    height: 15vw;
+}
 .opis {
-    padding: 5rem 5rem 10rem 5rem;
+    /*
+    position: -webkit-sticky;
+    position: sticky; top: 0px;*/
+    background:rgba(0, 0, 0, 0.308);
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+
 }
 .presentpics {
     background: rgb(156, 139, 156);
+    margin-top: 10rem;
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -80,7 +93,6 @@ main {
     'p s t k';
 }
 .pics {
-    width: ;
     height: 5rem;
     background: violet;
     background-size: cover;
