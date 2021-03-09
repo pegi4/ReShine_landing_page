@@ -1,0 +1,12 @@
+@media only screen and (max-width:1200px) {
+    .presentpics {
+        background: rgb(156, 139, 156);
+        margin-top: 10rem;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 12px;
+        grid-template-areas: 
+        'p s t k';
+    }
+}
