@@ -88,8 +88,8 @@ main {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 15rem;
-    padding-bottom: 15em;
+    padding-top: 20rem;
+    padding-bottom: 20em;
 }
 #logo {
     text-align: center;
@@ -135,7 +135,6 @@ main {
 footer {
     margin-top: 5rem;
     padding: 5rem;
-   
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;

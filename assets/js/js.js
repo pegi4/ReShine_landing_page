@@ -38,7 +38,7 @@ function myFunction(x) {
 		$(document).ready(function() {
 			$(window).scroll(function() {
 				console.log('scrolling ', $(window).scrollTop(), $(document).height());
-				if ($(window).scrollTop() >= 700 && $(window).scrollTop() <= ($(document).height() - 700)) {
+				if ($(window).scrollTop() >= 800 && $(window).scrollTop() <= ($(document).height() - 800)) {
 					$('header').addClass('hide');
 				}
 				else {
@@ -51,7 +51,7 @@ function myFunction(x) {
 		$(document).ready(function() {
 			$(window).scroll(function() {
 				console.log('scrolling ', $(window).scrollTop(), $(document).height());
-				if ($(window).scrollTop() >= 500 && $(window).scrollTop() <= ($(document).height() - 400)) {
+				if ($(window).scrollTop() >= 400 && $(window).scrollTop() <= ($(document).height() - 400)) {
 					$('header').addClass('hide');
 				}
 				else {
@@ -68,7 +68,7 @@ function myFunction(x) {
 
   $(window).on("load",function() {
     function fade() {
-        var animation_height = $(window).innerHeight() * 0.30;
+        var animation_height = $(window).innerHeight() * 0.25;
         var ratio = Math.round( (1 / animation_height) * 10000 ) / 10000;
 
         $('.fade').each(function() {

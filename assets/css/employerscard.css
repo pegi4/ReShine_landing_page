@@ -63,7 +63,7 @@
 .presentpics p {
 	color: rgba(38, 50, 56, .87);
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	text-align: center;
 	position: relative;
@@ -71,8 +71,12 @@
 }
 
 .para {
-	margin-top: 10px;
-	margin-bottom: 7px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.para2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .info a {

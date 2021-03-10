@@ -85,17 +85,15 @@
     bottom: 0;
     background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
     z-index: -1;
-    border-radius: 0px 0px 50% 0px;
+    border-radius: 0px 0px 30% 0px;
   }
   
   .pp {
     display: block;
-    width: 128px;
-    height: 128px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 30px;
-    border-radius: 50%;
     background-color: #FFF;
-    border: 5px solid #FFF;
     object-fit: cover;
   }
   
