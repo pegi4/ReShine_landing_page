@@ -13,18 +13,17 @@ header {
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 100;
+    z-index: -1;
     position: fixed;
     transition: .8s;
     background: rgba(238, 34, 34, 0);
-    opacity: 1;
+    opacity: 0;
 }
 
 .hide {
     backdrop-filter:blur(1px);
-    background: rgba(238, 34, 34, 0);
-    z-index: -1;
-    opacity: 0;
+    z-index: 1000;
+    opacity: 1;
 }
 
 header .conteiner{
@@ -58,8 +57,31 @@ header .conteiner{
 main {
     
 }
+
+.shead {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+#jaslo {
+    float: left;
+    padding: 1rem;
+}
+#jaslo img {
+    filter:brightness(0) invert(1);
+    height: 4rem;
+}
+.soja {
+    float: right;
+    padding: 1rem;
+}
+.soja a i {
+    color: white;
+}
+
 .background {
     background: url(/assets/pictures/back1.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 15rem;
@@ -196,4 +218,8 @@ footer {
 .cc a i {
     color: black;
     margin-left: 4px;
+}
+.cc a i:hover {
+    color: rgba(53, 53, 53, 0.7);
+	transition: color 0.4s;
 }
