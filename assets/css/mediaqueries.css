@@ -1,0 +1,43 @@
+@media only screen and (max-width:1200px) {
+    .presentpics {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'p s'
+        'k t';
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .presentpics {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'p'
+        's'
+        'k'
+        't'
+        ;
+    }
+
+    .cc {
+        display: block;
+    }
+    .card {
+        width: 300px;
+        height: 500px;
+    }
+    .card_body {
+        padding: 25px;
+    }
+    .card__body h3 {
+        color: var(--dark);
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      
+      .card__body p {
+        color: var(--dark);
+        font-size: 14px;
+        line-height: 1.3;
+      }
+}

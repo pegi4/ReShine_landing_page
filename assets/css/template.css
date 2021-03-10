@@ -7,6 +7,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.fade {
+    opacity: 0;
+}
+
 header {
     padding-left: 20%;
     padding-right: 20%;
@@ -112,25 +116,13 @@ main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 12px;
     grid-template-areas: 
-    'p s t k';
+    'p s k t';
 }
-.pics {
-    height: 5rem;
-    background: violet;
-    background-size: cover;
-}
-.pic1{
-    grid-area: p;
-}
-.pic2{
-    grid-area: s;
-}
-.pic3{
-    grid-area: k;
-}
-.pic4{
-    grid-area: t;
-}
+
+.card1{grid-area: p;}
+.card2{grid-area: s;}
+.card3{grid-area: k;}
+.card4{grid-area: t;}
 
 .product {
     margin-top: 10rem;
@@ -141,9 +133,9 @@ main {
 ----------------------------------------------*/
 
 footer {
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding: 5rem;
-    background: #e7be98d5;
+   
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
@@ -210,9 +202,10 @@ footer {
     border: 0;
     height: 1.5px;
     width: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 .cc {
+    text-align: center;
     display: flex;
 }
 .cc a i {
@@ -222,4 +215,7 @@ footer {
 .cc a i:hover {
     color: rgba(53, 53, 53, 0.7);
 	transition: color 0.4s;
+}
+.inline {
+    margin-left: 2px;
 }
