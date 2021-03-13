@@ -10,13 +10,10 @@
     padding: 0;
   }
   
-  body {
-    font-family: montserrat, sans-serif;
-    width: 100%;
-    min-height: 100vh;
-  }
+
   
   .card {
+    font-family: sans-serif;
     margin: 100px auto 0;
     width: 400px;
     height: 600px;

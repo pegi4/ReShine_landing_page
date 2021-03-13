@@ -69,7 +69,7 @@ function myFunction(x) {
   $(window).on("load",function() {
     function fade() {
         var animation_height = $(window).innerHeight() * 0.25;
-        var ratio = Math.round( (1 / animation_height) * 10000 ) / 10000;
+        var ratio = Math.round( (1 / animation_height) * 10000 ) / 1000;
 
         $('.fade').each(function() {
 
@@ -98,3 +98,9 @@ function myFunction(x) {
     fade();
     $(window).scroll(function() {fade();});
 });
+
+window.onload = function(){
+	document.getElementById('ll').style.opacity = 1;
+	document.getElementById('ll').style.marginTop = "0rem";
+	document.getElementById('opis').style.opacity = 1;
+}
