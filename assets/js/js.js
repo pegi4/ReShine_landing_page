@@ -1,3 +1,7 @@
+/*--------------------------------------------
+*                   Info button
+----------------------------------------------*/
+
 const card = document.querySelector(".card__inner");
 
 card.addEventListener("click", function (e) {
@@ -19,7 +23,7 @@ $(function() {
 	});
 });
 
-/*
+/* Add class when scrolled 700px
 $(document).ready(function() {
 	$(window).scroll(function() {
         console.log('scrolling ', $(window).scrollTop(), $(document).height());
@@ -31,6 +35,10 @@ $(document).ready(function() {
         }
     });
 });*/
+
+/*--------------------------------------------
+*       On scroll show header logo
+----------------------------------------------*/
 
 function myFunction(x) {
 	if (x.matches) { // If media query matches
@@ -62,6 +70,10 @@ function myFunction(x) {
 	}
   }
   
+/*--------------------------------------------
+*      ON SCROLL GET KINDA BLURRY
+----------------------------------------------*/
+
   var x = window.matchMedia("(min-width: 700px)")
   myFunction(x) // Call listener function at run time
   x.addListener(myFunction) // Attach listener function on state changes
@@ -99,11 +111,16 @@ function myFunction(x) {
     $(window).scroll(function() {fade();});
 });
 
+
 window.onload = function(){
 	document.getElementById('ll').style.opacity = 1;
 	document.getElementById('ll').style.marginTop = "0rem";
 	document.getElementById('opis').style.opacity = 1;
 }
+
+/*--------------------------------------------
+*      REVEAL SROLL DOWN GO UP
+----------------------------------------------*/
 
 window.addEventListener('scroll', reveal);
 

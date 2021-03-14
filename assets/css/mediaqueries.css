@@ -5,7 +5,7 @@
     }
     #blur {
         width: 300px;
-        height: 180px;
+        height: 160px;
     }
     
     #color {
@@ -15,14 +15,14 @@
     
     #profile {
         width: 300px;
-        height: 250px;
+        height: 240px;
         position: relative;
         top: -200px;
         border-radius: 8px;
     }
     #profile img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
     .para {
         margin-top: 17px;
