@@ -81,7 +81,7 @@ function myFunction(x) {
                     $(this).css( {
                         transition: 'opacity 0.1s linear',
                         opacity: 1
-                    } );
+					});
 
                 } else {
                     $(this).css( {
@@ -103,4 +103,24 @@ window.onload = function(){
 	document.getElementById('ll').style.opacity = 1;
 	document.getElementById('ll').style.marginTop = "0rem";
 	document.getElementById('opis').style.opacity = 1;
+}
+
+window.addEventListener('scroll', reveal);
+
+function reveal(){
+  var reveals = document.querySelectorAll('.reveal');
+
+  for(var i = 0; i < reveals.length; i++){
+
+	var windowheight = window.innerHeight;
+	var revealtop = reveals[i].getBoundingClientRect().top;
+	var revealpoint = 40;
+
+	if(revealtop < windowheight - revealpoint){
+	  reveals[i].classList.add('active');
+	}
+	else{
+	  reveals[i].classList.remove('active');
+	}
+  }
 }

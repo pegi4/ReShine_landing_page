@@ -12,6 +12,18 @@ html {
     opacity: 0;
 }
 
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+  
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+  
 header {
     padding-left: 20%;
     padding-right: 20%;
@@ -60,7 +72,7 @@ header .conteiner{
 ----------------------------------------------*/
 
 main {
-    background:url(/assets/pictures/jasslovenija.png);
+
 }
 
 .shead {
@@ -115,7 +127,6 @@ main {
 
 }
 .presentpics {
-    background: rgb(156, 139, 156);
     margin-top: 10rem;
     display: grid;
     justify-items: center;
@@ -132,6 +143,16 @@ main {
 
 .product {
     margin-top: 10rem;
+}
+
+#background1 {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    background: violet;
+    float: left;
+    height: auto;
+    width: 300px;
 }
 
 /*--------------------------------------------
