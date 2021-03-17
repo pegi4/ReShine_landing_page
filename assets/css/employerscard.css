@@ -2,7 +2,7 @@
 
 #card {
 	width: 250px;
-	height: 200px;
+	height: 280px;
 	position: relative;
 	margin: 10% auto;
 	border-radius: 8px;
@@ -33,13 +33,13 @@
 	width: 250px;
 	height: 150px;
 	position: relative;
-	top: -200px;
+	top: -185px;
 	border-radius: 8px;
 }
 
 #profile img {
-	width: 60px;
-	height: 60px;
+	width: 120px;
+	height: 120px;
 	border-radius: 100px;
 	position: relative;
 	top: 60px;
@@ -106,9 +106,9 @@
 
 .info.active {
 	width: 100%;
-	height: 200%;
+	height: 250%;
 	position: relative;
-	top: -100%;
+	top: -110%;
 	background: rgba(38, 50, 56, 1);
 	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
 	z-index: 999;
@@ -146,7 +146,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -169,11 +169,12 @@
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 55px;
+	top: 30px;
 	visibility: hidden;
 }
 
 .info.active p {
+	font-size: 16px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -185,7 +186,7 @@
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 75px;
+	top: 55px;
 }
 
 .info.active .link {
@@ -199,7 +200,7 @@
 		top: 150px;
 	}
 	100% {
-		top: 55px;
+		top: 30px;
 	}
 }
 
@@ -208,7 +209,7 @@
 		top: 150px;
 	}
 	100% {
-		top: 75px;
+		top: 55px;
 	}
 }
 
@@ -242,9 +243,9 @@
 
 .iinfo.active {
 	width: 100%;
-	height: 200%;
+	height: 250%;
 	position: relative;
-	top: -100%;
+	top: -110%;
 	background: rgba(38, 50, 56, 1);
 	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
 	z-index: 999;
@@ -282,7 +283,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -296,11 +297,12 @@
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 55px;
+	top: 30px;
 	visibility: hidden;
 }
 
 .iinfo.active p {
+	font-size: 16px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -312,7 +314,7 @@
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 75px;
+	top: 55px;
 }
 
 .iinfo.active .link {
@@ -350,9 +352,9 @@
 
 .iiinfo.active {
 	width: 100%;
-	height: 200%;
+	height: 250%;
 	position: relative;
-	top: -100%;
+	top: -110%;
 	background: rgba(38, 50, 56, 1);
 	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
 	z-index: 999;
@@ -390,7 +392,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -404,11 +406,12 @@
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 55px;
+	top: 30px;
 	visibility: hidden;
 }
 
 .iiinfo.active p {
+	font-size: 16px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -420,7 +423,7 @@
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 75px;
+	top: 55px;
 }
 
 .iiinfo.active .link {
@@ -458,9 +461,9 @@
 
 .iiiinfo.active {
 	width: 100%;
-	height: 200%;
+	height: 250%;
 	position: relative;
-	top: -100%;
+	top: -110%;
 	background: rgba(38, 50, 56, 1);
 	transition: width .1s ease, height .2s ease, top .2s ease, z-index .2s ease;
 	z-index: 999;
@@ -498,7 +501,7 @@
 	padding: 4px;
 	visibility: visible;
 	position: relative;
-	top: 40px;
+	top: 10px;
 	animation-name: visible;
 	animation-duration: 0.3s;
 }
@@ -512,11 +515,12 @@
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
-	top: 55px;
+	top: 30px;
 	visibility: hidden;
 }
 
 .iiiinfo.active p {
+	font-size: 16px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -528,7 +532,7 @@
 	padding: 16px 4px 4px 4px;
 	cursor: pointer;
 	position: relative;
-	top: 75px;
+	top: 55px;
 }
 
 .iiiinfo.active .link {

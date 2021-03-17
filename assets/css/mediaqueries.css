@@ -1,28 +1,18 @@
 @media only screen and (min-width:1500px) {
     #card {
         width: 300px;
-        height: 260px;
-    }
-    #blur {
-        width: 300px;
-        height: 160px;
-    }
-    
-    #color {
-        width: 400px;
-        height: 300px;
+        height: 320px;
     }
     
     #profile {
         width: 300px;
-        height: 240px;
+        height: 250px;
         position: relative;
-        top: -200px;
         border-radius: 8px;
     }
     #profile img {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
     .para {
         margin-top: 17px;
@@ -33,13 +23,58 @@
         margin-bottom: 0px;
     }
     .info.active, .iinfo.active, .iiinfo.active,  .iiiinfo.active  {
-        top: -70%;
+        top: -80%;
     }
     .info.active p, .iinfo.active p, .iiinfo.active p,  .iiiinfo.active p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+    #profile h1 {
+        font-size: 22px;
+    }
+    .presentpics p {
+        font-size: 18px;
+    }
+    @keyframes entrance-first {
+        0% {
+            top: 150px;
+        }
+        100% {
+            top: 30px;
+        }
+    }
+    
+    @keyframes entrance-second {
+        0% {
+            top: 150px;
+        }
+        100% {
+            top: 55px;
+        }
     }
 }
-
+@media only screen and (min-width:2000px) {
+    #card {
+        width: 300px;
+        height: 340px;
+    }
+    
+    #profile {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        border-radius: 8px;
+    }
+    #profile img {
+        width: 160px;
+        height: 160px;
+    }
+    .info.active, .iinfo.active, .iiinfo.active,  .iiiinfo.active  {
+        top: -90%;
+    }
+    .info.active p, .iinfo.active p, .iiinfo.active p,  .iiiinfo.active p {
+        font-size: 18px;
+    }
+}
 @media only screen and (max-width:1200px) {
     .presentpics {
         grid-template-columns: 1fr 1fr;

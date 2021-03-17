@@ -121,6 +121,7 @@ main {
     /*
     position: -webkit-sticky;
     position: sticky; top: 0px;*/
+    font-size: 20px;
     opacity: 0;
     transition: 1.1s;
     background:rgba(0, 0, 0, 0.438);
