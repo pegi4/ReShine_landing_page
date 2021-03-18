@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .product_pic img {
+  border-radius: 20px;
   height: 25vw;
 }
 .product_description {

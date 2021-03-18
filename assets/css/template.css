@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgba(255, 235, 205, 0.13);
+    background: url(/assets/pictures/Pattern-Randomized.svg);
 }
   
 header {
@@ -55,14 +55,27 @@ header .conteiner{
     z-index: 1;
 }
 
+#wavesup {
+    opacity: 0.85;
+    z-index: -10;
+    margin-top: -1px;
+    position: absolute;
+}
+
+#wavesdown{
+    z-index: -10;
+    margin-top: -1px;
+    bottom: 0px;
+    position: absolute;
+}
+
 /*--------------------------------------------
 *                   MAIN
 ----------------------------------------------*/
 
 main {
-
+    position: relative;
 }
-
 .shead {
     position: absolute;
     top: 0px;
@@ -115,6 +128,11 @@ main {
     color: white;
 
 }
+#zaposlenin {
+    position: absolute;
+    margin-top: -2.5rem;
+    left: 3vw;
+}
 .presentpics {
     margin-top: 10rem;
     display: grid;
@@ -149,6 +167,7 @@ main {
 ----------------------------------------------*/
 
 footer {
+    position: relative;
     margin-top: 5rem;
     padding: 5rem;
     display: grid;
