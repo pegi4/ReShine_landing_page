@@ -19,6 +19,8 @@
 
         <link rel="stylesheet" href="assets/css/mediaqueries.css">
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- FONTS -->
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -66,8 +68,8 @@
             </div>
         </div>
         <main>
-            <div class="presentpics fade">
-                <div id="card" class="card1 reveal">
+            <div class="presentpics">
+                <div id="card" class="card1" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
                     <div id="blur">
                         <div id="color"></div>
                     </div>
@@ -87,7 +89,7 @@
                     </div>
                 </div>
 
-                <div id="card" class="card2 reveal">
+                <div id="card" class="card2" data-aos="fade-down" data-aos-anchor-placement="center-bottom">
                     <div id="blur">
                         <div id="color"></div>
                     </div>
@@ -107,7 +109,7 @@
                     </div>
                 </div>
 
-                <div id="card" class="card3 reveal">
+                <div id="card" class="card3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <div id="blur">
                         <div id="color"></div>
                     </div>
@@ -127,7 +129,7 @@
                     </div>
                 </div>
 
-                <div id="card" class="card4 reveal">
+                <div id="card" class="card4" data-aos="fade-left" data-aos-anchor-placement="center-bottom">
                     <div id="blur">
                         <div id="color"></div>
                     </div>
@@ -172,7 +174,7 @@
         </main>
 
         
-        <footer class="fade ">
+        <footer data-aos="fade-up"  data-aos-anchor-placement="top-bottom"></footer>
             <div class="social_share">
                 <div class="f_social">
                     <div class="f_wrapper">
@@ -215,5 +217,9 @@
         })
     </script>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     </body>
