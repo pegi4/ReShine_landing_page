@@ -51,6 +51,9 @@
             top: 55px;
         }
     }
+    .product_pic img {
+        height: 620px;
+    }
 }
 @media only screen and (min-width:2000px) {
     #card {
@@ -81,6 +84,23 @@
         grid-template-areas: 
         'p s'
         'k t';
+    }
+    .product_description {
+        justify-self: center;
+        text-align: center;
+    }
+    .product_pic img {
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .product {
+        margin: 10% 0%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'd'
+        'p';
     }
 }
 
@@ -123,5 +143,8 @@
     .pp {
         width: 200px;
         height: 200px;
+    }
+    .product_pic img {
+        height: 250px;
     }
 }

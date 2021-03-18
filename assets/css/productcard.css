@@ -4,11 +4,23 @@
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  grid-template-areas: 
+  'p d';
+}
+.product_pic {
+  grid-area: p;
 }
 .product_pic img {
   border-radius: 20px;
-  height: 25vw;
+  height: 520px;
 }
 .product_description {
+  grid-area: d;
   justify-self: left;
+}
+.product_description h1 {
+}
+.product_description p {
+
 }
