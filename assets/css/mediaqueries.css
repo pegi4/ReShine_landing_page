@@ -78,6 +78,16 @@
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width:1400px) {
+    .product {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'p'
+        'd';
+      }
+}
+
 @media only screen and (max-width:1200px) {
     .presentpics {
         grid-template-columns: 1fr 1fr;
@@ -99,8 +109,8 @@
         margin: 10% 0%;
         grid-template-columns: 1fr;
         grid-template-areas: 
-        'd'
-        'p';
+        'p'
+        'd';
     }
 }
 
@@ -147,4 +157,11 @@
     .product_pic img {
         height: 250px;
     }
+    .product_description p {
+        text-align: justify;
+        font-size: 18px;
+      }
+      .product_description p strong {
+        font-size: 20px;
+      }
 }

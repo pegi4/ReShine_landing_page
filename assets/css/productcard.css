@@ -1,5 +1,7 @@
 .product {
-  margin: 10% 20%;
+  margin: 15% 0%;
+  padding: 2% 20%;
+  backdrop-filter: blur(3.5px);
   position: relative;
   display: grid;
   justify-items: center;
@@ -16,11 +18,15 @@
   height: 520px;
 }
 .product_description {
+  filter: drop-shadow(5px 5px 4px #b4b4b4);
   grid-area: d;
   justify-self: left;
 }
-.product_description h1 {
-}
-.product_description p {
 
+.product_description p {
+  text-align: justify;
+  font-size: 22px;
+}
+.product_description p strong {
+  font-size: 24px;
 }
