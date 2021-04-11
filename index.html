@@ -21,7 +21,14 @@
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+
         <!-- FONTS -->
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -164,7 +171,44 @@
                 </div> 
             </div>
 
-            
+            <div class="container-contact100" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+                <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+        
+                <div class="wrap-contact100">
+                    <form class="contact100-form validate-form">
+                        <span class="contact100-form-title">
+                            KONTAKTIRAJTE NAS
+                        </span>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                            <input class="input100" type="text" name="name" placeholder="Ime">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter email: e@a.x">
+                            <input class="input100" type="text" name="email" placeholder="Email">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                            <textarea class="input100" name="message" placeholder="Sporočilo"></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn">
+                                POŠLJI
+                            </button>
+                        </div>
+                    </form>
+        
+                    <div class="contact100-more">
+                        Contact us <span class="contact100-more-highlight">reshine@sers.si</span>
+                    </div>
+                </div>
+            </div>
+
         </main>
         
         <footer>
@@ -191,7 +235,7 @@
             </div>
             
             <hr class="bline" data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
-            <div class="cc">
+            <div class="cc" data-aos="fade-up"  data-aos-anchor-placement="top-bottom">
                 <p class="inline">©2021 ReShine d.d </p><p class="inline">| Webside by Vito Senic |</p>
                 <a class="link" href="https://www.instagram.com/senicvito/" target="_blank"><i class="fa fa-instagram fa-1x social"></i></a>
                 <a class="link" href="https://github.com/VitoSenic" target="_blank"><i class="fa fa-github fa-1x social"></i></a>
@@ -207,6 +251,17 @@
         oCOMScript2225267.type='text/javascript';
         document.getElementsByTagName("head").item(0).appendChild(oCOMScript2225267);
      </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+    </script>
+
+     <script src="js/contactus.js"></script>
 
      <script type="text/javascript" src="assets/js/js.js"></script>
 
