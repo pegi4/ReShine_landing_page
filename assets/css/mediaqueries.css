@@ -197,4 +197,15 @@
       .product_description p strong {
         font-size: 20px;
       }
+
+      .titles ul {
+        flex-direction: column;
+    }
+    footer {
+        grid-template-rows: 100px 100px auto 1fr;
+        padding: 2rem;
+    }
+    .f_wrapper {
+        margin: 0px;
+    }
 }

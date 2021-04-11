@@ -200,6 +200,9 @@ footer {
     line-height: 40px;
     transition: all 0.3s ease-out;
 }
+.f_wrapper .button .icon{
+    color: #000000;
+}
 .f_wrapper .button:nth-child(1):hover .icon{
     background: #4267B2;
 }
@@ -219,6 +222,7 @@ footer {
     font-family: Poppins;
     list-style-type: none;
     display: flex;
+    flex-direction: row;
 }
 .titles ul li{
     margin-left: 1rem;
