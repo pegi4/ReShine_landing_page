@@ -1,7 +1,7 @@
 .slider{
     width: 800px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 30px;
     overflow: hidden;
   }
   
@@ -89,17 +89,17 @@
   }
   
   #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #46464625;
+    background: #ffffff4f;
   }
   
   #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #000000;
+    background: #ffffff4f;
   }
   
   #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #000000;
+    background: #ffffff4f;
   }
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #000000;
+    background: #ffffff4f;
   }

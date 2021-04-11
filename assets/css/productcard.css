@@ -1,18 +1,4 @@
-.product {
-  margin: 15% 0%;
-  padding: 10% 10vw;
-  background: rgba(231, 231, 231, 0.4);
-  position: relative;
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  grid-template-areas: 
-  'p d';
-}
-.product_pic {
-  grid-area: p;
-}
+
 .product_description {
   filter: drop-shadow(5px 5px 4px #b4b4b4);
   grid-area: d;
@@ -25,4 +11,15 @@
 }
 .product_description p strong {
   font-size: 24px;
+}
+
+.products {
+  margin: 400px 600px;
+}
+#comslider_in_point_2225267 {
+   margin: 20px;
+}
+.product_description p {
+   padding-left: 50px;
+   padding-right: 50px;
 }

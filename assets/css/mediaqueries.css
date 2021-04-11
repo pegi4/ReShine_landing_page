@@ -74,6 +74,9 @@
     .info.active p, .iinfo.active p, .iiinfo.active p,  .iiiinfo.active p {
         font-size: 18px;
     }
+    .products {
+        margin: 250px 600px;
+    }
 }
 
 @media only screen and (max-width:1400px) {
@@ -84,6 +87,45 @@
         'd';
       }
 }
+
+@media only screen and (max-width:1800px) {
+    .products {
+        margin: 200px 500px;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .products {
+        margin: 200px 400px;
+    }
+    .product_description p strong {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:1300px) {
+    .products {
+        margin: 200px 300px;
+    }
+    .product_description p strong {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .products {
+        margin: 100px 200px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .products {
+        margin: 100px 100px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .products {
+        margin: 100px 0px;
+    }
+}
+
 
 @media only screen and (max-width:1200px) {
     .presentpics {

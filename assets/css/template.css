@@ -21,7 +21,7 @@ header {
     z-index: -1;
     position: fixed;
     transition: .8s;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.192);
     opacity: 0;
 }
 
@@ -97,7 +97,7 @@ main {
 }
 
 .background {
-    background: url(/assets/pictures/back1.jpg);
+    background: url(/assets/pictures/IMG_41051.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
