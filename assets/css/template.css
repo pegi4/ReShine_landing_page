@@ -163,7 +163,6 @@ main {
 
 footer {
     position: relative;
-    margin-top: 5rem;
     padding: 5rem;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;

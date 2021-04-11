@@ -51,9 +51,6 @@
             top: 55px;
         }
     }
-    .product_pic img {
-        height: 620px;
-    }
 }
 @media only screen and (min-width:2000px) {
     #card {
@@ -98,9 +95,6 @@
     .product_description {
         justify-self: center;
         text-align: center;
-    }
-    .product_pic img {
-        height: 420px;
     }
 }
 
@@ -153,9 +147,6 @@
     .pp {
         width: 200px;
         height: 200px;
-    }
-    .product_pic img {
-        height: 250px;
     }
     .product_description p {
         text-align: justify;

@@ -1,7 +1,7 @@
 .product {
   margin: 15% 0%;
-  padding: 2% 20%;
-  backdrop-filter: blur(3.5px);
+  padding: 10% 10vw;
+  background: rgba(231, 231, 231, 0.4);
   position: relative;
   display: grid;
   justify-items: center;
@@ -12,10 +12,6 @@
 }
 .product_pic {
   grid-area: p;
-}
-.product_pic img {
-  border-radius: 20px;
-  height: 520px;
 }
 .product_description {
   filter: drop-shadow(5px 5px 4px #b4b4b4);
