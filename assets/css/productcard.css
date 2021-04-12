@@ -1,4 +1,3 @@
-
 .product_description {
   filter: drop-shadow(5px 5px 4px #b4b4b4);
   grid-area: d;
@@ -15,10 +14,13 @@
 
 .products {
   margin: 400px 600px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 #comslider_in_point_2225267 {
-   margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 .product_description p {
    padding-left: 50px;

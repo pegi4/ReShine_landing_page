@@ -232,6 +232,9 @@ footer {
     text-decoration: none;
     color: black;
 }
+.titles ul li a:hover{
+    color: rgba(0, 0, 0, 0.719);
+}
 .bline {
     margin: 1rem 0 2rem 0;
     border: 0;

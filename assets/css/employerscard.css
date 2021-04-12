@@ -165,7 +165,7 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 12px;
 	line-height: 110%;
-	font-weight: 400;
+	font-weight: 200 !important;
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
