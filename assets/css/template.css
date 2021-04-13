@@ -133,6 +133,14 @@ main {
     position: absolute;
     margin-top: -2.5rem;
     left: 3vw;
+    font-size: 32px;
+    filter: drop-shadow(5px 5px 4px #b4b4b4);
+}
+#izdelke-h {
+    margin-top: 10vw;
+    margin-left: 3vw;
+    font-size: 32px;
+    filter: drop-shadow(5px 5px 4px #b4b4b4);
 }
 .presentpics {
     margin-top: 10rem;
@@ -159,6 +167,20 @@ main {
     width: 300px;
 }
 
+.video-container {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    filter: drop-shadow(5px 5px 4px #b4b4b4);
+    height: 32vw;
+    width: 45vw;
+    border-radius: 25px;
+}
 /*--------------------------------------------
 *                   FOOTER
 ----------------------------------------------*/

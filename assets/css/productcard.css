@@ -6,23 +6,22 @@
 
 .product_description p {
   text-align: justify;
-  font-size: 22px;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .product_description p strong {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .products {
   margin: 400px 600px;
   margin-bottom: 50px;
+  margin-top: 150px;
 }
 #comslider_in_point_2225267 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
-}
-.product_description p {
-   padding-left: 50px;
-   padding-right: 50px;
 }
