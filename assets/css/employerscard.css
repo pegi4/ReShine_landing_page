@@ -2,7 +2,7 @@
 
 #card {
 	width: 250px;
-	height: 280px;
+	height: 340px;
 	position: relative;
 	margin: 10% auto;
 	border-radius: 8px;
@@ -31,18 +31,18 @@
 
 #profile {
 	width: 250px;
-	height: 150px;
+	height: 180px;
 	position: relative;
 	top: -185px;
 	border-radius: 8px;
 }
 
 #profile img {
-	width: 120px;
-	height: 120px;
+	width: 135px;
+	height: 135px;
 	border-radius: 100px;
 	position: relative;
-	top: 60px;
+	top: 85px;
 	display: block;
 	margin: 0 auto;
 	-webkit-filter: sepia(.25);
@@ -57,7 +57,7 @@
 	font-weight: 700;
 	text-align: center;
 	position: relative;
-	top: 70px;
+	top: 90px;
 }
 
 .presentpics p {
@@ -67,7 +67,7 @@
 	font-weight: 400;
 	text-align: center;
 	position: relative;
-	top: 75px
+	top: 90px
 }
 
 .para {
@@ -78,6 +78,8 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+/*----------------------------------------------------------------------------------------------------------*/
 
 .info a {
 	color: rgba(255, 255, 255, 1);
@@ -93,7 +95,7 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 85px;
+	top: 100px;
 	background: rgba(38, 50, 56, 1);
 	width: 30px;
 	height: 30px;
@@ -163,9 +165,9 @@
 .info p {
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 12px;
-	line-height: 110%;
-	font-weight: 200 !important;
+	font-size: 14px;
+	line-height: 150%;
+	font-weight: 500 !important;
 	text-align: center;
 	padding: 10px 6px 6px 6px;
 	position: relative;
@@ -174,7 +176,6 @@
 }
 
 .info.active p {
-	font-size: 16px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -230,7 +231,7 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 85px;
+	top: 100px;
 	background: rgba(38, 50, 56, 1);
 	width: 30px;
 	height: 30px;
@@ -292,7 +293,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 12px;
-	line-height: 110%;
+	line-height: 150%;
 	font-weight: 400;
 	text-align: center;
 	padding: 10px 6px 6px 6px;
@@ -339,7 +340,7 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 85px;
+	top: 100px;
 	background: rgba(38, 50, 56, 1);
 	width: 30px;
 	height: 30px;
@@ -401,7 +402,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 12px;
-	line-height: 110%;
+	line-height: 150%;
 	font-weight: 400;
 	text-align: center;
 	padding: 10px 6px 6px 6px;
@@ -411,7 +412,7 @@
 }
 
 .iiinfo.active p {
-	font-size: 16px;
+	font-size: 14px;
 	visibility: visible;
 	animation-name: entrance-first;
 	animation-duration: 0.4s;
@@ -448,7 +449,7 @@
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
-	top: 85px;
+	top: 100px;
 	background: rgba(38, 50, 56, 1);
 	width: 30px;
 	height: 30px;
@@ -510,7 +511,7 @@
 	color: rgba(255, 255, 255, 1);
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 12px;
-	line-height: 110%;
+	line-height: 150%;
 	font-weight: 400;
 	text-align: center;
 	padding: 10px 6px 6px 6px;

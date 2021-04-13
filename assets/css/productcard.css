@@ -6,12 +6,12 @@
 
 .product_description p {
   text-align: justify;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 50px;
   padding-right: 50px;
 }
 .product_description p strong {
-  font-size: 32px;
+  font-size: 27px;
 }
 
 .products {
