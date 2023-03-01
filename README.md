@@ -1,1 +1,1 @@
-Dostopno na https://reshine.sers.si
+Check it out: https://reshine.sers.si
